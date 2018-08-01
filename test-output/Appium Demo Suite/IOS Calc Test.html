@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  IOS Calc Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>IOS Calc Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 27 10:54:20 EDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>132 seconds (132051 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>@smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Validate no internet connection error message()'><b>Validate no internet connection error message</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Validate no internet connection error message)<br/>
+<a href="#Output-1142205810" onClick='toggleBox("Output-1142205810", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1142205810" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1142205810">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Validate no internet connection error message █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given User is in login page ▄ ▄ ▄<br/>
+▀▄▀▄▀ User is in login page ▀▄▀▄▀<br/>
+▀ ▀ ▀ END STEP: Given User is in login page ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: And there is no internet connection ▄ ▄ ▄<br/>
+▀▄▀▄▀ Wifi is swithed off ▀▄▀▄▀<br/>
+▀ ▀ ▀ END STEP: And there is no internet connection ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: When I have enter password as "Test@1234" ▄ ▄ ▄<br/>
+▀▄▀▄▀ Password got clicked ▀▄▀▄▀<br/>
+▀▄▀▄▀ Password Got Entered ▀▄▀▄▀<br/>
+▀ ▀ ▀ END STEP: When I have enter password as "Test@1234" ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: And I click on login button ▄ ▄ ▄<br/>
+▀▄▀▄▀ Login Button Clicked ▀▄▀▄▀<br/>
+▀ ▀ ▀ END STEP: And I click on login button ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then I get an no internet error message ▄ ▄ ▄<br/>
+▀▄▀▄▀ Error Text is You're not connected to the internet. A network connection is required. ▀▄▀▄▀<br/>
+▀▄▀▄▀ Clicked Ok on Attention ▀▄▀▄▀<br/>
+▀ ▀ ▀ END STEP: Then I get an no internet error message ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User is in login page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And there is no internet connection</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I have enter password as "Test@1234"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I click on login button</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I get an no internet error message</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Internet not available text should be You're not connected to the internet. A network connection is required. : Actual Internet not available text is You're not connected to the internet. A network connection is required.</div></div></div><br/>
+▀▄▀▄▀ REPORTIUM URL: https://fifththird.reporting.perfectomobile.com/library?externalId%5B0%5D=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-27_15_02_30_1157&_timestamp%5B0%5D=1532703750034 ▀▄▀▄▀<br/>
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST PASSED: Validate no internet connection error message █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e9</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Validating invalid user name and password error message()'><b>Validating invalid user name and password error message</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Validating invalid user name and password error message)<br/>
+<a href="#Output-1442093428" onClick='toggleBox("Output-1442093428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1442093428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1442093428">
+▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://fifththird.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-27_15_02_30_1157&_timestamp[0]=1532703750034, simpleIsVisibleCheck=true, available=false, language=English, deviceName=6CEDD7EA68F5F5211728B0554694B223BB4F86ED, deviceId=6CEDD7EA68F5F5211728B0554694B223BB4F86ED, resolution=1242x2208, mode=CONNECTED, password=, cradleId=BOS-E2-F1-5/VIRTUAL/05, deviceSessionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-27_15_02_30_1157, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=fifththird.perfectomobile.com, javascriptEnabled=true, model=iPhone-8 Plus, rotatable=true, entityType=remote_web_driver, serverHost=1.5.43.22:11605, executionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-27_15_02_30_1157, webdriver.remote.sessionid=1d252506-9376-4441-bb34-94494c4b602e, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, bundleid=com.clairmail.fth.client, platform=ANY, wifiMacAddress=68:ef:43:e0:b5:f8, manufacturer=Apple, osVersion=11.4, platformVersion=11.4, singleTestReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-27_15_02_30_1157&_timestamp[0]=1532703750034, inUse=true, takesScreenshot=true, platformName=iOS, firmware=11.4, applicationName=Fifth Third, testGridReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-27_15_02_30_1157&_timestamp[0]=1532703750034, os=iOS, xcuitestFindOptimizations=true, allocatedTo=gopinath.nagarajan@internal.53.com, bundleId=com.apple.mobilesafari, serverConnector=, securityToken=, locationContextEnabled=true, location=NA-US-BOS, linkType=lab, reportKey=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-27_15_02_30_1157, windTunnelReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-27_15_02_30_1157&_timestamp[0]=1532703750034, user=}] ▀▄▀▄▀<br/>
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Validating invalid user name and password error message █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I start the application by the name "Fifth Third" ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I start the application by the name "Fifth Third" ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: And I am using an AppiumDriver ▄ ▄ ▄<br/>
+▀▄▀▄▀ Driver is an instance of IOSDriver ▀▄▀▄▀<br/>
+▀ ▀ ▀ END STEP: And I am using an AppiumDriver ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: When I enter "PerfectoMOBTest" and "Test@1234" ▄ ▄ ▄<br/>
+▀▄▀▄▀ I am here in user name and password ▀▄▀▄▀<br/>
+▀▄▀▄▀ UserId got clicked ▀▄▀▄▀<br/>
+▀▄▀▄▀ UserId Got Entered ▀▄▀▄▀<br/>
+▀▄▀▄▀ Password got clicked ▀▄▀▄▀<br/>
+▀▄▀▄▀ Password Got Entered ▀▄▀▄▀<br/>
+▀ ▀ ▀ END STEP: When I enter "PerfectoMOBTest" and "Test@1234" ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: And I click on login button ▄ ▄ ▄<br/>
+▀▄▀▄▀ Login Button Clicked ▀▄▀▄▀<br/>
+▀ ▀ ▀ END STEP: And I click on login button ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then I get an error message "User ID and password invalid." ▄ ▄ ▄<br/>
+▀▄▀▄▀ Error Text is User ID and Password invalid. ▀▄▀▄▀<br/>
+▀▄▀▄▀ Assertion completed ▀▄▀▄▀<br/>
+▀▄▀▄▀ Clicked Ok on Attention ▀▄▀▄▀<br/>
+▀ ▀ ▀ END STEP: Then I get an error message "User ID and password invalid." ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I start the application by the name "Fifth Third"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I am using an AppiumDriver</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I enter "PerfectoMOBTest" and "Test@1234"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I click on login button</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I get an error message "User ID and password invalid."</div></div><br/>
+▀▄▀▄▀ REPORTIUM URL: https://fifththird.reporting.perfectomobile.com/library?externalId%5B0%5D=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-27_15_02_30_1157&_timestamp%5B0%5D=1532703750034 ▀▄▀▄▀<br/>
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST PASSED: Validating invalid user name and password error message █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

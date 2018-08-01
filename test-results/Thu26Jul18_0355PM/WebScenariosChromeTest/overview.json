@@ -1,0 +1,87 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "deviceType": "Web",
+      "resolution": "1280x1024",
+      "securityToken": "eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIyNWUwNDJmNi0xNTJiLTRkZTYtODhhNS01MjU5ZTNjZTkxNDQiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTMyNjMzNzEyLCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2ZpZnRodGhpcmQtcGVyZmVjdG9tb2JpbGUtY29tIiwiYXVkIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJzdWIiOiJlZDUxYjliZS1hZjJhLTRkNTMtYWE5Yy0xMjZhODgwZjc2ODQiLCJ0eXAiOiJPZmZsaW5lIiwiYXpwIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJzZXNzaW9uX3N0YXRlIjoiOGZmYzhkYTktNzJmOS00MzBiLWFmNzMtMWU4ODRjMGI0YjU3IiwiY2xpZW50X3Nlc3Npb24iOiI0NzQzODkzZS1jZDMzLTQ3MzgtOTdlMy03MjQ2MTRkY2QwOGMiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50Iiwidmlldy1wcm9maWxlIl19fX0.D1vOC0KROpgP8BVVcJ2UHeVd-B3VjxXf1QV0Ml1msXxI-noXAi3uFvj7b6JMauPjZzdCfNYlBD0nniJ_EF72wfn_CAS4IkOXMegq1uZCjrOFcDyAzaD04lJFeriEITehiYrI7IwjlBF1hyqIhEwZuD4amc2ebjAgdS980PxTUK_jEo6OaerIUGj-lr9UwfBSiJ66NbpYeg_KNf1c6RE3i43-KGCK3hWQtEMfCiPVfHfZJjWlnZfGITxH9A3AtkpSBn4BjhCr5QBIE40Zse2KzGDE_yIdSKCC8yi4BcNVyajxL5_G5BfICxG_KDlx8OS5LxZn0s-re0nOIVem42azPg",
+      "platformVersion": "10",
+      "browserVersion": "67",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "Chrome",
+      "javascriptEnabled": true,
+      "location": "US East",
+      "platformName": "Windows",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://fifththird.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_20_03_22_1081&_timestamp[0]=1532635402542",
+      "resolution": "1280x1024",
+      "deviceName": "1_F298FEF4-9B99-45A3-8324-C6E0050E1956",
+      "platform": "ANY",
+      "password": "",
+      "deviceSessionId": "gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_20_03_22_1081",
+      "platformVersion": "10",
+      "browserVersion": "67",
+      "automationName": "Appium",
+      "host": "fifththird.perfectomobile.com",
+      "singleTestReportUrl": "https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_20_03_22_1081&_timestamp[0]=1532635402542",
+      "takesScreenshot": "true",
+      "browserName": "Chrome",
+      "javascriptEnabled": "true",
+      "platformName": "Windows",
+      "deviceType": "Web",
+      "rotatable": "true",
+      "testGridReportUrl": "https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_20_03_22_1081&_timestamp[0]=1532635402542",
+      "entityType": "remote_web_driver",
+      "serverConnector": "",
+      "securityToken": "",
+      "executionId": "gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_20_03_22_1081",
+      "webdriver.remote.sessionid": "72b802cf-d503-4ea3-b7ae-8079154ee8b8",
+      "locationContextEnabled": "true",
+      "scriptName": "RemoteWebDriver",
+      "location": "US East",
+      "reportKey": "gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_20_03_22_1081",
+      "windTunnelReportUrl": "https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_20_03_22_1081&_timestamp[0]=1532635402542",
+      "user": "",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "13",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "20-Feb-2018 00:19:29"
+    },
+    "run-parameters": {
+      "perfecto.capabilities.platformVersion": "10",
+      "perfecto.capabilities.deviceType": "Web",
+      "baseurl": "",
+      "perfecto.capabilities.browserName": "Chrome",
+      "env.resources": "src/main/resources/common",
+      "perfecto.capabilities.browserVersion": "67",
+      "perfecto.capabilities.location": "US East",
+      "perfecto.capabilities.resolution": "1280x1024",
+      "resources": "src/main/resources/common",
+      "perfecto.capabilities.platformName": "Windows"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_181",
+      "os.arch": "amd64",
+      "host": "ILWORKSTATION05",
+      "os.name": "Windows 7",
+      "user.name": "gnagarajan",
+      "os.version": "6.1"
+    }
+  },
+  "startTime": 1532634939269,
+  "endTime": 1532634951023
+}

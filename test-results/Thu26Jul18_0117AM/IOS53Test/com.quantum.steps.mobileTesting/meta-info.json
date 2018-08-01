@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BeforTest",
+        "name": "beforTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1532548049891,
+      "duration": 1547,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "OpenAPP",
+        "resultFileName": "OpenAPP",
+        "sign": "mobileTesting.OpenAPP()[pri:1, instance:com.quantum.steps.mobileTesting@6f96c77]"
+      },
+      "dependsOn": [],
+      "startTime": 1532548051458,
+      "duration": 12,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

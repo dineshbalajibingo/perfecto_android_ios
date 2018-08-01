@@ -1,0 +1,183 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "i_open_the_browser_and_enter_URL",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.53.com/content/fifth-third/en.html}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5540
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_click_on_login_button_on_screen",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/header/div[1]/ul[2]/li[2]/button, using=xpath}"
+          ],
+          "result": "id: 0.6225853274111357-1",
+          "subLogs": [],
+          "duration": 297
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_input_and",
+      "args": [
+        "[PerfectoWEBTest, Test@1234]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class = 'input-group'], using=xpath}"
+          ],
+          "result": "id: 0.6225853274111357-2",
+          "subLogs": [],
+          "duration": 304
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class = 'input-group']",
+            "{\"id\":\"0.6225853274111357-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 306
+        },
+        {
+          "commandName": "sendKeysToActiveElement",
+          "args": [
+            "{value=[Ljava.lang.CharSequence;@325162c4}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1474
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='password'], using=xpath}"
+          ],
+          "result": "id: 0.6225853274111357-3",
+          "subLogs": [],
+          "duration": 271
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='password']",
+            "{\"id\":\"0.6225853274111357-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 316
+        },
+        {
+          "commandName": "sendKeysToActiveElement",
+          "args": [
+            "{value=[Ljava.lang.CharSequence;@14d4e609}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1226
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_click_login",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/header/div[1]/ul[2]/li[2]/div/section/div/div/div/form/div[3]/button, using=xpath}"
+          ],
+          "result": "id: 0.6225853274111357-4",
+          "subLogs": [],
+          "duration": 306
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/header/div[1]/ul[2]/li[2]/div/section/div/div/div/form/div[3]/button",
+            "{\"id\":\"0.6225853274111357-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 323
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_get_an_error_message_on_screen",
+      "args": [
+        "[Test Error6]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open the browser and enter URL",
+      "type": "TestStepPass",
+      "duration": 5541,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on login button on screen",
+      "type": "TestStepPass",
+      "duration": 614,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I input \"PerfectoWEBTest\" and \"Test@1234\"",
+      "type": "TestStepPass",
+      "duration": 9114,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click login",
+      "type": "TestStepPass",
+      "duration": 630,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I get an error message \"Test Error6\" on screen",
+      "type": "TestStepPass",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

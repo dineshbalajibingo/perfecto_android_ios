@@ -1,0 +1,97 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppByName",
+      "args": [
+        "[Calculator]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 224
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And I am using an AppiumDriver",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When clear Calculator",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When add \"3\" to \"5\"",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then result should be \"8\"",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by name \"Calculator\"",
+      "type": "TestStepPass",
+      "duration": 6252,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I am using an AppiumDriver :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When clear Calculator",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When add \"3\" to \"5\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then result should be \"8\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: And I am using an AppiumDriver@src/main/resources/scenarios/appiumCalc.feature#8 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\n\tat .And I am using an AppiumDriver(src/main/resources/scenarios/appiumCalc.feature:8)\n"
+}

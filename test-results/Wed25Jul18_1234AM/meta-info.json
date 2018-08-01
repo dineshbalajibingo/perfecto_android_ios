@@ -1,0 +1,13 @@
+{
+  "name": "Appium Demo Suite",
+  "status": "unstable",
+  "tests": [
+    "IOSCalcTest"
+  ],
+  "total": 2,
+  "pass": 0,
+  "fail": 0,
+  "skip": 2,
+  "startTime": 1532459095239,
+  "endTime": 1532459165749
+}

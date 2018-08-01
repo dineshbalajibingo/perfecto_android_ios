@@ -1,0 +1,400 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "user_is_in_login_page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "there_is_no_internet_connection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "i_have_enter_password_as",
+      "args": [
+        "[Test@1234]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='com.clairmail.fth:id/passwordField'], using=xpath}"
+          ],
+          "result": "id: 9",
+          "subLogs": [],
+          "duration": 449
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id='com.clairmail.fth:id/passwordField']",
+            "{\"id\":\"9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 551
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='com.clairmail.fth:id/passwordField'], using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 787
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id='com.clairmail.fth:id/passwordField']",
+            "{\"id\":\"10\",\"value\":[\"Test@1234\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 2134
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_click_on_login_button",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='com.clairmail.fth:id/login_button'], using=xpath}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 419
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id='com.clairmail.fth:id/login_button']",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 681
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_get_an_no_internet_error_message",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 12",
+          "subLogs": [],
+          "duration": 481
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"12\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 417
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 13",
+          "subLogs": [],
+          "duration": 418
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"13\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 930
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "[id: 14]",
+          "subLogs": [],
+          "duration": 406
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 15",
+          "subLogs": [],
+          "duration": 425
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"15\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 418
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 16",
+          "subLogs": [],
+          "duration": 406
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"16\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 419
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 17",
+          "subLogs": [],
+          "duration": 424
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"17\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 413
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 18",
+          "subLogs": [],
+          "duration": 420
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"18\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 419
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 19",
+          "subLogs": [],
+          "duration": 415
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"19\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 414
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 20",
+          "subLogs": [],
+          "duration": 427
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"20\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 423
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 21",
+          "subLogs": [],
+          "duration": 427
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"21\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 417
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 22",
+          "subLogs": [],
+          "duration": 417
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"22\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 428
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 23",
+          "subLogs": [],
+          "duration": 435
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"23\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 521
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 24",
+          "subLogs": [],
+          "duration": 418
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"24\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 430
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User is in login page",
+      "type": "TestStepPass",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And there is no internet connection",
+      "type": "TestStepPass",
+      "duration": 299,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I have enter password as \"Test@1234\"",
+      "type": "TestStepPass",
+      "duration": 3923,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on login button",
+      "type": "TestStepPass",
+      "duration": 1102,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I get an no internet error message",
+      "type": "TestStepFail",
+      "screenshot": "img/ValidateNoInternetConnectionErrorMessage_1ss4qdrq4vze22292.png",
+      "duration": 26056,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Internet not available text should be You're not connected to the internet. A network connection is required. : Actual Internet not available text is A connection error has occurred. You may experience delays.",
+          "type": "Fail",
+          "screenshot": "img/ValidateNoInternetConnectionErrorMessage_2wy6gnioow2c2291.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError\n\tat .Then I get an no internet error message(src/main/resources/scenarios/fifththirdLogin.feature:17)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertText(QAFExtendedWebElement.java:1056)\n\tat com.quantum.steps.FifththirdLoginDefs.i_get_an_no_internet_error_message(FifththirdLoginDefs.java:136)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:159)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:225)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+}

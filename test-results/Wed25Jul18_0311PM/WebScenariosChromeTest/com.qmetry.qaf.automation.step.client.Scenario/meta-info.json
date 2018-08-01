@@ -1,0 +1,27 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@web",
+          "@web"
+        ],
+        "lineNo": 5,
+        "name": "Validating web login",
+        "Perfecto-report": "<a href=\"https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-25_09_41_19_373&_timestamp[0]=1532511679204\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/fifththirdweb.feature",
+        "resultFileName": "ValidatingWebLogin",
+        "sign": "src.main.resources.scenarios.fifththirdweb.feature.Validating web login()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1532511676759,
+      "duration": 59056,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

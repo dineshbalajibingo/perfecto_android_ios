@@ -1,0 +1,9 @@
+input.userdidtxt = {\"locator\":\"xpath=//*[@resource-id='com.clairmail.fth:id/usernameField']\",\"desc\":\"Input box for User ID\"}
+input.password = {\"locator\":\"xpath=//*[@resource-id='com.clairmail.fth:id/passwordField']\",\"desc\":\"Input box for password\"}
+btn.login = {\"locator\":\"xpath=//*[@resource-id='com.clairmail.fth:id/login_button']\",\"desc\":\"login Button\"}
+
+
+invaliderr.msg= {\"locator\":\"xpath=//*[@resource-id='android:id/message']\",\"desc\":\"Error Message for Invalid UN\"}
+wifi.msg= {\"locator\":\"xpath=//*[@resource-id='android:id/message']\",\"desc\":\"Internet not available\"}
+clkok.btn= {\"locator\":\"xpath=//*[@resource-id='android:id/button1']\",\"desc\":\"ok button\"}
+

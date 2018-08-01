@@ -1,0 +1,100 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BeforTest",
+        "name": "beforTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1532547787450,
+      "duration": 1610,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "OpenAPP",
+        "resultFileName": "OpenAPP",
+        "sign": "mobileTesting.OpenAPP()[pri:1, instance:com.quantum.steps.mobileTesting@6f96c77]"
+      },
+      "dependsOn": [],
+      "startTime": 1532547789079,
+      "duration": 11,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "enterUsernamePassword",
+        "resultFileName": "EnterUsernamePassword",
+        "sign": "mobileTesting.enterUsernamePassword()[pri:2, instance:com.quantum.steps.mobileTesting@6f96c77]"
+      },
+      "dependsOn": [],
+      "startTime": 1532547789104,
+      "duration": 12010,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BeforTestIHyiQvzxJA",
+        "name": "beforTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1532547832501,
+      "duration": 40525,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "OpenAPP",
+        "resultFileName": "OpenAPPKjimkhHRBj",
+        "sign": "mobileTesting.OpenAPP()[pri:1, instance:com.quantum.steps.mobileTesting@6f96c77]"
+      },
+      "dependsOn": [],
+      "startTime": 1532547873050,
+      "duration": 6063,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "enterUsernamePassword",
+        "resultFileName": "EnterUsernamePasswordhPQrVrjVkF",
+        "sign": "mobileTesting.enterUsernamePassword()[pri:2, instance:com.quantum.steps.mobileTesting@6f96c77]"
+      },
+      "dependsOn": [],
+      "startTime": 1532547879124,
+      "duration": 27912,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

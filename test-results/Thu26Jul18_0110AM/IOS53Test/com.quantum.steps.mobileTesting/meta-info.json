@@ -1,0 +1,52 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BeforTest",
+        "name": "beforTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1532547601411,
+      "duration": 26854,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "OpenAPP",
+        "resultFileName": "OpenAPP",
+        "sign": "mobileTesting.OpenAPP()[pri:1, instance:com.quantum.steps.mobileTesting@6f96c77]"
+      },
+      "dependsOn": [],
+      "startTime": 1532547628286,
+      "duration": 5959,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "enterUsernamePassword",
+        "resultFileName": "EnterUsernamePassword",
+        "sign": "mobileTesting.enterUsernamePassword()[pri:2, instance:com.quantum.steps.mobileTesting@6f96c77]"
+      },
+      "dependsOn": [],
+      "startTime": 1532547634257,
+      "duration": 27999,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

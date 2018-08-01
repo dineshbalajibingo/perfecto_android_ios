@@ -1,0 +1,259 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "user_is_in_login_page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "there_is_no_internet_connection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "i_have_enter_password_as",
+      "args": [
+        "[Test@1234]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='com.clairmail.fth:id/passwordField'], using=xpath}"
+          ],
+          "result": "id: 9",
+          "subLogs": [],
+          "duration": 399
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id='com.clairmail.fth:id/passwordField']",
+            "{\"id\":\"9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1258
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='com.clairmail.fth:id/passwordField'], using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 990
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id='com.clairmail.fth:id/passwordField']",
+            "{\"id\":\"10\",\"value\":[\"Test@1234\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1994
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_click_on_login_button",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='com.clairmail.fth:id/login_button'], using=xpath}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 539
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id='com.clairmail.fth:id/login_button']",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 605
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_get_an_no_internet_error_message",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 12",
+          "subLogs": [],
+          "duration": 492
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"12\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 417
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 13",
+          "subLogs": [],
+          "duration": 421
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"13\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 415
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "[id: 14]",
+          "subLogs": [],
+          "duration": 423
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 15",
+          "subLogs": [],
+          "duration": 409
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"15\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 430
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 16",
+          "subLogs": [],
+          "duration": 418
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"16\"}"
+          ],
+          "result": "getElementText:A connection error has occurred. You may experience delays.",
+          "subLogs": [],
+          "duration": 427
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='android:id/message'], using=xpath}"
+          ],
+          "result": "id: 17",
+          "subLogs": [],
+          "duration": 428
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id='android:id/message']",
+            "{\"id\":\"17\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 669
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User is in login page",
+      "type": "TestStepPass",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And there is no internet connection",
+      "type": "TestStepPass",
+      "duration": 296,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I have enter password as \"Test@1234\"",
+      "type": "TestStepPass",
+      "duration": 4645,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on login button",
+      "type": "TestStepPass",
+      "duration": 1145,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I get an no internet error message",
+      "type": "TestStepPass",
+      "duration": 6963,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Internet not available text should be A connection error has occurred. You may experience delays. : Actual Internet not available text is A connection error has occurred. You may experience delays.",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppByName",
+      "args": [
+        "[Calculator]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 290
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "testForAppiumDriver",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clearCalculator",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@name, 'clear')], using=xpath}"
+          ],
+          "result": "id: 13000000-0000-0000-2F0B-000000000000",
+          "subLogs": [],
+          "duration": 900
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@name, 'clear')]",
+            "{\"id\":\"13000000-0000-0000-2F0B-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 856
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "addInto",
+      "args": [
+        "[6, 7]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=add, using=name}"
+          ],
+          "result": "id: 22000000-0000-0000-2F0B-000000000000",
+          "subLogs": [],
+          "duration": 850
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: add",
+            "{\"id\":\"22000000-0000-0000-2F0B-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 854
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=equals, using=name}"
+          ],
+          "result": "id: 25000000-0000-0000-2F0B-000000000000",
+          "subLogs": [],
+          "duration": 847
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: equals",
+            "{\"id\":\"25000000-0000-0000-2F0B-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 838
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "resultShouldBe",
+      "args": [
+        "[13]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Result'], using=xpath}"
+          ],
+          "result": "[id: 08000000-0000-0000-2F0B-000000000000]",
+          "subLogs": [],
+          "duration": 875
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='Result'], using=xpath}"
+          ],
+          "result": "id: 08000000-0000-0000-2F0B-000000000000",
+          "subLogs": [],
+          "duration": 835
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@name='Result']",
+            "{\"id\":\"08000000-0000-0000-2F0B-000000000000\"}"
+          ],
+          "result": "getElementText:13",
+          "subLogs": [],
+          "duration": 514
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='Result'], using=xpath}"
+          ],
+          "result": "id: 08000000-0000-0000-2F0B-000000000000",
+          "subLogs": [],
+          "duration": 843
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@name='Result']",
+            "{\"id\":\"08000000-0000-0000-2F0B-000000000000\"}"
+          ],
+          "result": "getElementText:13",
+          "subLogs": [],
+          "duration": 529
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by name \"Calculator\"",
+      "type": "TestStepPass",
+      "duration": 6301,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I am using an AppiumDriver",
+      "type": "TestStepPass",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When clear Calculator",
+      "type": "TestStepPass",
+      "duration": 1758,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When add \"6\" to \"7\"",
+      "type": "TestStepPass",
+      "duration": 6765,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then result should be \"13\"",
+      "type": "TestStepPass",
+      "duration": 3599,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Input box text should be in:13 : Actual Input box text is 13",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

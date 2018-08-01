@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Demo Suite" verbose="0" parallel="tests">
+    <listeners>
+        <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+    </listeners>
+
+    <!-- To use actual AppiumDriver classes defined    -->
+    <!-- by driverClass property in env.resources dirs -->
+    <!-- Set driver.name value to perfectoDriver       -->
+      <parameter name="driver.name" value="perfectoDriver"/>   
+
+    <test name="IOS 53 Test" enabled="false">
+        <parameter name="driver.capabilities.model" value="iPhone-8 Plus"></parameter>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+
+        <groups>
+            <run>
+                <include name="@smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+    <test name="Android 53 Test" enabled="true">
+        <parameter name="driver.capabilities.model" value="Galaxy S7"></parameter> 
+        <parameter name="driver.capabilities.platformVersion" value="Android"></parameter> 
+           <parameter name="driver.capabilities.deviceName" value="CE0218220B2F94150C"></parameter> 
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+</suite>

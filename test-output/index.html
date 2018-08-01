@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Appium_Demo_Suite">
+              <span class="suite-name border-passed">Appium Demo Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Appium_Demo_Suite">
+                    <span>testng_appium.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Appium_Demo_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Appium_Demo_Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Appium_Demo_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Appium_Demo_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Appium_Demo_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Appium_Demo_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Appium_Demo_Suite" class="hide-methods passed suite-Appium_Demo_Suite"> (hide)</a> <!-- hide-methods passed suite-Appium_Demo_Suite -->
+                      <a href="#" panel-name="suite-Appium_Demo_Suite" class="show-methods passed suite-Appium_Demo_Suite"> (show)</a> <!-- show-methods passed suite-Appium_Demo_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Appium_Demo_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Appium_Demo_Suite" title="com.qmetry.qaf.automation.step.client.Scenario" hash-for-method="Validate no internet connection error message">Validate no internet connection error message</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Appium_Demo_Suite" title="com.qmetry.qaf.automation.step.client.Scenario" hash-for-method="Validate no internet connection error message">Validate no internet connection error message</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Appium_Demo_Suite" title="com.qmetry.qaf.automation.step.client.Scenario" hash-for-method="Validating invalid user name and password error message">Validating invalid user name and password error message</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Appium_Demo_Suite" title="com.qmetry.qaf.automation.step.client.Scenario" hash-for-method="Validating invalid user name and password error message">Validating invalid user name and password error message</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Appium_Demo_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Appium_Demo_Suite" class="panel Appium_Demo_Suite">
+          <div class="suite-Appium_Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.Scenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate no internet connection error message">
+                  </a> <!-- Validate no internet connection error message -->
+                  <span class="method-name">Validate no internet connection error message</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate no internet connection error message">
+                  </a> <!-- Validate no internet connection error message -->
+                  <span class="method-name">Validate no internet connection error message</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validating invalid user name and password error message">
+                  </a> <!-- Validating invalid user name and password error message -->
+                  <span class="method-name">Validating invalid user name and password error message</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validating invalid user name and password error message">
+                  </a> <!-- Validating invalid user name and password error message -->
+                  <span class="method-name">Validating invalid user name and password error message</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Demo_Suite-class-passed -->
+        </div> <!-- panel Appium_Demo_Suite -->
+        <div panel-name="test-xml-Appium_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/dineshbalajivenkataraman/Documents/New/workspace/Dinesh/perfecto_quantum-master/src/main/resources/config/testng_appium.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Appium Demo Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;driver.name&quot; value=&quot;perfectoDriver&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.quantum.listeners.QuantumReportiumListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;IOS 53 Test&quot;&gt;
+    &lt;parameter name=&quot;env.resources&quot; value=&quot;src/main/resources/ios&quot;/&gt;
+    &lt;parameter name=&quot;driver.capabilities.model&quot; value=&quot;iPhone-8 Plus&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;@smoke&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IOS 53 Test --&gt;
+  &lt;test name=&quot;Android 53 Test&quot;&gt;
+    &lt;parameter name=&quot;driver.capabilities.platformVersion&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;env.resources&quot; value=&quot;src/main/resources/android&quot;/&gt;
+    &lt;parameter name=&quot;driver.capabilities.model&quot; value=&quot;Galaxy S7&quot;/&gt;
+    &lt;parameter name=&quot;driver.capabilities.deviceName&quot; value=&quot;CE0218220B2F94150C&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;@smoke&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Android 53 Test --&gt;
+&lt;/suite&gt; &lt;!-- Appium Demo Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Appium_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Appium Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">IOS 53 Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Android 53 Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Appium_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Appium Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">@smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Validate no internet connection error message</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Validating invalid user name and password error message</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Appium_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Appium Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Appium_Demo_Suite');
+function tableData_Appium_Demo_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Validating invalid user name and password error message')
+data.setCell(0, 2, 'com.qmetry.qaf.automation.step.client.Scenario')
+data.setCell(0, 3, 69718);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Validate no internet connection error message')
+data.setCell(1, 2, 'com.qmetry.qaf.automation.step.client.Scenario')
+data.setCell(1, 3, 61181);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Validating invalid user name and password error message')
+data.setCell(2, 2, 'com.qmetry.qaf.automation.step.client.Scenario')
+data.setCell(2, 3, 37237);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Validate no internet connection error message')
+data.setCell(3, 2, 'com.qmetry.qaf.automation.step.client.Scenario')
+data.setCell(3, 3, 14619);
+window.suiteTableData['Appium_Demo_Suite']= { tableData: data, tableDiv: 'times-div-Appium_Demo_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Appium_Demo_Suite">
+              </div> <!-- times-div-Appium_Demo_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Appium_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Appium Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Validate no internet connection error message</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█</span>
+                <span class="reporter-method-output">█ TEST STARTED: Validate no internet connection error message █</span>
+                <span class="reporter-method-output">█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: Given User is in login page ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  User is in login page █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: Given User is in login page ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: And there is no internet connection ▄ ▄ ▄</span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: And there is no internet connection ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: When I have enter password as "Test@1234" ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  Password got clicked █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  Password Got Entered █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: When I have enter password as "Test@1234" ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: And I click on login button ▄ ▄ ▄</span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: And I click on login button ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: Then I get an no internet error message ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  Error Text is A connection error has occurred. You may experience delays. █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  Clicked Ok on Attention █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: Then I get an no internet error message ▀ ▀ ▀</span>
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User is in login page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And there is no internet connection</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I have enter password as "Test@1234"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I click on login button</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I get an no internet error message</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Internet not available text should be A connection error has occurred. You may experience delays. : Actual Internet not available text is A connection error has occurred. You may experience delays.</div></div></div></span>
+                <span class="reporter-method-output">▀▄▀▄▀ REPORTIUM URL: https://fifththird.reporting.perfectomobile.com/library?externalId%5B0%5D=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_41_1324&_timestamp%5B0%5D=1533104681202 ▀▄▀▄▀</span>
+                <span class="reporter-method-output">█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█</span>
+                <span class="reporter-method-output">█ TEST PASSED: Validate no internet connection error message █</span>
+                <span class="reporter-method-output">█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Validating invalid user name and password error message</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://fifththird.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_41_1324&_timestamp[0]=1533104681202, available=false, language=English, deviceName=CE0218220B2F94150C, deviceId=CE0218220B2F94150C, resolution=1440x2560, platform=ANY, wifiMacAddress=24:18:1d:95:b0:30, manufacturer=Samsung, mode=CONNECTED, password=, cradleId=BOS-D8-F4-3/VIRTUAL/03, deviceSessionId=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_41_1324, osVersion=7.0, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=Android, automationName=Appium, host=fifththird.perfectomobile.com, singleTestReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_41_1324&_timestamp[0]=1533104681202, inUse=true, takesScreenshot=true, javascriptEnabled=true, model=Galaxy S7 Edge, platformName=Android, firmware=hero2ltexx-user 7.0 NRD90M G935FXXU1DQJ8 release-keys, applicationName=Fifth Third, rotatable=true, testGridReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_41_1324&_timestamp[0]=1533104681202, os=Android, entityType=remote_web_driver, allocatedTo=dinesh.venkataraman@internal.53.com, serverConnector=, securityToken=, executionId=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_41_1324, webdriver.remote.sessionid=843d2d9e-20f8-4622-b0da-1175baa02af9, locationContextEnabled=true, scriptName=RemoteWebDriver, location=NA-US-BOS, linkType=lab, reportKey=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_41_1324, windTunnelReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_41_1324&_timestamp[0]=1533104681202, user=, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected}] ▀▄▀▄▀</span>
+                <span class="reporter-method-output">█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█</span>
+                <span class="reporter-method-output">█ TEST STARTED: Validating invalid user name and password error message █</span>
+                <span class="reporter-method-output">█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: Given I start the application by the name "Fifth Third" ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  Context Switch Completed █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: Given I start the application by the name "Fifth Third" ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: And I am using an AppiumDriver ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  Driver is an instance of AndroidDriver █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: And I am using an AppiumDriver ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: When I enter "PerfectoMOBTest" and "Test@1234" ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  ------------------->NATIVE_APP █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  I am here in user name and password █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  *********************UserId got clicked █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  *********************UserId Got Entered █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  *********************Password got clicked █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  *********************Password Got Entered █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: When I enter "PerfectoMOBTest" and "Test@1234" ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: And I click on login button ▄ ▄ ▄</span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: And I click on login button ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: Then I get an error message "User ID and Password invalid." ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  Error Text is ----------->User ID and Password invalid. █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  Assertion completed █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  Clicked Ok on Attention █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: Then I get an error message "User ID and Password invalid." ▀ ▀ ▀</span>
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I start the application by the name "Fifth Third"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I am using an AppiumDriver</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I enter "PerfectoMOBTest" and "Test@1234"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I click on login button</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I get an error message "User ID and Password invalid."</div></div></span>
+                <span class="reporter-method-output">▀▄▀▄▀ REPORTIUM URL: https://fifththird.reporting.perfectomobile.com/library?externalId%5B0%5D=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_41_1324&_timestamp%5B0%5D=1533104681202 ▀▄▀▄▀</span>
+                <span class="reporter-method-output">█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█</span>
+                <span class="reporter-method-output">█ TEST PASSED: Validating invalid user name and password error message █</span>
+                <span class="reporter-method-output">█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Validate no internet connection error message</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█</span>
+                <span class="reporter-method-output">█ TEST STARTED: Validate no internet connection error message █</span>
+                <span class="reporter-method-output">█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: Given User is in login page ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  User is in login page █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: Given User is in login page ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: And there is no internet connection ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  Wifi is swithed off █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: And there is no internet connection ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: When I have enter password as "Test@1234" ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  Password got clicked █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  Password Got Entered █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: When I have enter password as "Test@1234" ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: And I click on login button ▄ ▄ ▄</span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: And I click on login button ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: Then I get an no internet error message ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  Error Text is You're not connected to the internet. A network connection is required. █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  Clicked Ok on Attention █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: Then I get an no internet error message ▀ ▀ ▀</span>
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User is in login page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And there is no internet connection</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I have enter password as "Test@1234"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I click on login button</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I get an no internet error message</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Internet not available text should be You're not connected to the internet. A network connection is required. : Actual Internet not available text is You're not connected to the internet. A network connection is required.</div></div></div></span>
+                <span class="reporter-method-output">▀▄▀▄▀ REPORTIUM URL: https://fifththird.reporting.perfectomobile.com/library?externalId%5B0%5D=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_52_1327&_timestamp%5B0%5D=1533104692458 ▀▄▀▄▀</span>
+                <span class="reporter-method-output">█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█</span>
+                <span class="reporter-method-output">█ TEST PASSED: Validate no internet connection error message █</span>
+                <span class="reporter-method-output">█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Validating invalid user name and password error message</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://fifththird.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_52_1327&_timestamp[0]=1533104692458, simpleIsVisibleCheck=true, available=false, language=English, deviceName=6CEDD7EA68F5F5211728B0554694B223BB4F86ED, deviceId=6CEDD7EA68F5F5211728B0554694B223BB4F86ED, resolution=1242x2208, mode=CONNECTED, password=, cradleId=BOS-E2-F1-5/VIRTUAL/05, deviceSessionId=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_52_1327, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=fifththird.perfectomobile.com, javascriptEnabled=true, model=iPhone-8 Plus, rotatable=true, entityType=remote_web_driver, serverHost=1.5.43.22:11605, executionId=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_52_1327, webdriver.remote.sessionid=dd927563-06a6-4996-af9d-1d85639cb42a, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, bundleid=com.clairmail.fth.client, platform=ANY, wifiMacAddress=68:ef:43:e0:b5:f8, manufacturer=Apple, osVersion=11.4, platformVersion=11.4, singleTestReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_52_1327&_timestamp[0]=1533104692458, inUse=true, takesScreenshot=true, platformName=iOS, firmware=11.4, applicationName=Fifth Third, testGridReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_52_1327&_timestamp[0]=1533104692458, os=iOS, xcuitestFindOptimizations=true, allocatedTo=dinesh.venkataraman@internal.53.com, bundleId=com.apple.mobilesafari, serverConnector=, securityToken=, locationContextEnabled=true, location=NA-US-BOS, linkType=lab, reportKey=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_52_1327, windTunnelReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_52_1327&_timestamp[0]=1533104692458, user=}] ▀▄▀▄▀</span>
+                <span class="reporter-method-output">█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█</span>
+                <span class="reporter-method-output">█ TEST STARTED: Validating invalid user name and password error message █</span>
+                <span class="reporter-method-output">█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: Given I start the application by the name "Fifth Third" ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  Context Switch Completed █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: Given I start the application by the name "Fifth Third" ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: And I am using an AppiumDriver ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  Driver is an instance of IOSDriver █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: And I am using an AppiumDriver ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: When I enter "PerfectoMOBTest" and "Test@1234" ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  ------------------->NATIVE_APP █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  I am here in user name and password █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  *********************UserId got clicked █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  *********************UserId Got Entered █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  *********************Password got clicked █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  *********************Password Got Entered █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: When I enter "PerfectoMOBTest" and "Test@1234" ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: And I click on login button ▄ ▄ ▄</span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: And I click on login button ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: Then I get an error message "User ID and Password invalid." ▄ ▄ ▄</span>
+                <span class="reporter-method-output">█ █ █  Error Text is ----------->User ID and Password invalid. █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  Assertion completed █ █ █ </span>
+                <span class="reporter-method-output">█ █ █  Clicked Ok on Attention █ █ █ </span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: Then I get an error message "User ID and Password invalid." ▀ ▀ ▀</span>
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I start the application by the name "Fifth Third"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I am using an AppiumDriver</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I enter "PerfectoMOBTest" and "Test@1234"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I click on login button</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I get an error message "User ID and Password invalid."</div></div></span>
+                <span class="reporter-method-output">▀▄▀▄▀ REPORTIUM URL: https://fifththird.reporting.perfectomobile.com/library?externalId%5B0%5D=dinesh.venkataraman@internal.53.com_RemoteWebDriver_18-08-01_06_24_52_1327&_timestamp%5B0%5D=1533104692458 ▀▄▀▄▀</span>
+                <span class="reporter-method-output">█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█</span>
+                <span class="reporter-method-output">█ TEST PASSED: Validating invalid user name and password error message █</span>
+                <span class="reporter-method-output">█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Appium_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Appium_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@1e66f1f5)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@21d8bd6b)</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@1e66f1f5)</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@1e66f1f5)</span>
+                <span class="method-start">46 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@21d8bd6b)</span>
+                <span class="method-start">46 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@21d8bd6...)</span>
+                <span class="method-start">52 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@1e66f1f...)</span>
+                <span class="method-start">52 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Validating invalid user name and password error message</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validating invalid user name and password error message</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@1e66f1f5)</span>
+                <span class="method-start">37576 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@1e66f1f5, [TestResult name=Validating invalid user name and password error mes...)</span>
+                <span class="method-start">37576 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@1e66f1f5)</span>
+                <span class="method-start">37577 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Validate no internet connection error message</span>
+                <span class="method-start">37578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@1e66f1f...)</span>
+                <span class="method-start">37578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@1e66f1f5)</span>
+                <span class="method-start">52415 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@1e66f1f5, [TestResult name=Validate no internet connection error message statu...)</span>
+                <span class="method-start">52415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@1e66f1f5)</span>
+                <span class="method-start">52416 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@21d8bd6b, [TestResult name=Validating invalid user name and password error mes...)</span>
+                <span class="method-start">70009 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@21d8bd6b)</span>
+                <span class="method-start">70010 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@21d8bd6b)</span>
+                <span class="method-start">70010 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@21d8bd6...)</span>
+                <span class="method-start">70010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Validate no internet connection error message</span>
+                <span class="method-start">70011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@21d8bd6b)</span>
+                <span class="method-start">131426 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@21d8bd6b, [TestResult name=Validate no internet connection error message statu...)</span>
+                <span class="method-start">131426 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@21d8bd6b)</span>
+                <span class="method-start">131427 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "enterUsernamePassword",
+        "resultFileName": "EnterUsernamePassword",
+        "sign": "mobileTesting.enterUsernamePassword()[pri:0, instance:com.quantum.steps.mobileTesting@6f96c77]"
+      },
+      "dependsOn": [],
+      "startTime": 1532546904762,
+      "duration": 19,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "OpenAPP",
+        "resultFileName": "OpenAPP",
+        "sign": "mobileTesting.OpenAPP()[pri:1, instance:com.quantum.steps.mobileTesting@6f96c77]"
+      },
+      "dependsOn": [],
+      "startTime": 1532546904797,
+      "duration": 2,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

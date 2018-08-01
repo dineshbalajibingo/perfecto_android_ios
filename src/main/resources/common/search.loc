@@ -1,0 +1,5 @@
+clk.login = {\"locator\":\"xpath=/html/body/header/div[1]/ul[2]/li[2]/button\",\"desc\":\"Input box for User ID\"}
+input.userID = {\"locator\":\"xpath=//div[@class = 'input-group']\",\"desc\":\"Input box for User ID\"}
+input.pwd = {\"locator\":\"xpath=//*[@id='password']\",\"desc\":\"Input box for password\"}
+btn.login = {\"locator\":\"xpath=/html/body/header/div[1]/ul[2]/li[2]/div/section/div/div/div/form/div[3]/button\",\"desc\":\"Input box for User ID\"}
+text.errorMsg = {\"locator\":\"xpath=//*[@class='s-alert__content']\",\"desc\":\"Input box for User ID\"}

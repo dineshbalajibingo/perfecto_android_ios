@@ -1,0 +1,50 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@appium",
+          "@appium"
+        ],
+        "lineNo": 6.0,
+        "name": "Appium Example",
+        "Perfecto-report": "<a href=\"https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-24_19_08_34_224&_timestamp[0]=1532459314617\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/appiumCalc.feature",
+        "resultFileName": "AppiumExample",
+        "sign": "src.main.resources.scenarios.appiumCalc.feature.Appium Example()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1532459315738,
+      "duration": 55835,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@appium",
+          "@appium"
+        ],
+        "lineNo": 14,
+        "name": "Appium Example 2",
+        "Perfecto-report": "<a href=\"https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-24_19_08_34_224&_timestamp[0]=1532459314617\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/appiumCalc.feature",
+        "resultFileName": "AppiumExample2",
+        "sign": "src.main.resources.scenarios.appiumCalc.feature.Appium Example 2()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1532459371828,
+      "duration": 22095,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

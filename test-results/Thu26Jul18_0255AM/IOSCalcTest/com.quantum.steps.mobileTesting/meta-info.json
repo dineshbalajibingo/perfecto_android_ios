@@ -1,0 +1,54 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BeforTest",
+        "name": "beforTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1532553951162,
+      "duration": 2525,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "OpenAPP",
+        "Perfecto-report": "<a href=\"N/A - local logger\" target=\"_blank\">view</a>",
+        "resultFileName": "OpenAPP",
+        "sign": "mobileTesting.OpenAPP()[pri:1, instance:com.quantum.steps.mobileTesting@4c9f8c13]"
+      },
+      "dependsOn": [],
+      "startTime": 1532553953709,
+      "duration": 13,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "enterUsernamePassword",
+        "Perfecto-report": "<a href=\"N/A - local logger\" target=\"_blank\">view</a>",
+        "resultFileName": "EnterUsernamePassword",
+        "sign": "mobileTesting.enterUsernamePassword()[pri:2, instance:com.quantum.steps.mobileTesting@4c9f8c13]"
+      },
+      "dependsOn": [],
+      "startTime": 1532553953736,
+      "duration": 1208,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

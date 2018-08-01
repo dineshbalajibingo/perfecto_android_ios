@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Appium Demo Suite]" parallel="tests">
+  <parameter name="driver.name" value="perfectoDriver"/>
+  <listeners>
+    <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+  </listeners>
+  <test name="Android 53 Test(failed)" parallel="tests">
+    <parameter name="driver.capabilities.platformVersion" value="Android"/>
+    <parameter name="env.resources" value="src/main/resources/android"/>
+    <parameter name="driver.capabilities.model" value="Galaxy S7"/>
+    <parameter name="driver.capabilities.deviceName" value="CE0218220B2F94150C"/>
+    <groups>
+      <run>
+        <include name="@smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="scenario"/>
+          <include name="setupTest"/>
+          <include name="setupSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </classes>
+  </test> <!-- Android 53 Test(failed) -->
+</suite> <!-- Failed suite [Appium Demo Suite] -->

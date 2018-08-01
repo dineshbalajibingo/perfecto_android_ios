@@ -1,0 +1,135 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "user_is_in_login_page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "there_is_no_internet_connection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "i_have_enter_password_as",
+      "args": [
+        "[Test@1234]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//AppiumAUT/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeSecureTextField[1], using=xpath}"
+          ],
+          "result": "id: 20000000-0000-0000-8F04-000000000000",
+          "subLogs": [],
+          "duration": 851
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //AppiumAUT/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeSecureTextField[1]",
+            "{\"id\":\"20000000-0000-0000-8F04-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 730
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//AppiumAUT/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeSecureTextField[1], using=xpath}"
+          ],
+          "result": "id: 20000000-0000-0000-8F04-000000000000",
+          "subLogs": [],
+          "duration": 716
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //AppiumAUT/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeSecureTextField[1]",
+            "{\"id\":\"20000000-0000-0000-8F04-000000000000\",\"value\":[\"Test@1234\"]}"
+          ],
+          "result": "An unknown server-side error occurred while processing the command. Original error: Error Domain=com.perfecto.pmdriver Code=1 \"Keyboard is not present\" UserInfo={NSLocalizedDescription=Keyboard is not present} (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'ba1ffa30e57b', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities [{reportPdfUrl=https://fifththird.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, simpleIsVisibleCheck=true, bundleid=com.clairmail.fth.client, deviceName=6CEDD7EA68F5F5211728B0554694B223BB4F86ED, platform=MAC, password=, deviceSessionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, driverClass=io.appium.java_client.ios.IOSDriver, platformVersion=11.4, webStorageEnabled=false, automationName=Appium, host=fifththird.perfectomobile.com, singleTestReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, browserName=, takesScreenshot=true, javascriptEnabled=true, model=iPhone-8 Plus, platformName=MAC, applicationName=Fifth Third, networkConnectionEnabled=false, testGridReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, entityType=remote_web_driver, xcuitestFindOptimizations=true, bundleId=com.apple.mobilesafari, databaseEnabled=false, serverConnector=, serverHost=1.5.43.22:11605, securityToken=, executionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, locationContextEnabled=false, scriptName=RemoteWebDriver, reportKey=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, windTunnelReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, user=, cssSelectorsEnabled=true}]\nSession ID: f790bed0-ab13-4e4b-8ca3-e54f4e596d59\nCommand duration or timeout: 3.60 seconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ILWORKSTATION05', ip: '172.16.102.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://fifththird.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, simpleIsVisibleCheck=true, bundleid=com.clairmail.fth.client, deviceName=6CEDD7EA68F5F5211728B0554694B223BB4F86ED, platform=ANY, password=, deviceSessionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, driverClass=io.appium.java_client.ios.IOSDriver, platformVersion=11.4, automationName=Appium, host=fifththird.perfectomobile.com, singleTestReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, takesScreenshot=true, javascriptEnabled=true, model=iPhone-8 Plus, platformName=iOS, applicationName=Fifth Third, rotatable=true, testGridReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, entityType=remote_web_driver, xcuitestFindOptimizations=true, bundleId=com.apple.mobilesafari, serverConnector=, serverHost=1.5.43.22:11605, securityToken=, executionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, webdriver.remote.sessionid=e9539b35-1c24-45b4-bfe6-64af8cf2f04b, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, windTunnelReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, user=, cssSelectorsEnabled=true}]\nSession ID: e9539b35-1c24-45b4-bfe6-64af8cf2f04b",
+          "subLogs": [],
+          "duration": 3595
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on login button",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I get an no internet error message",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User is in login page",
+      "type": "TestStepPass",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And there is no internet connection",
+      "type": "TestStepPass",
+      "duration": 35641,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I have enter password as \"Test@1234\"",
+      "type": "TestStepFail",
+      "screenshot": "img/ValidateNoInternetConnectionErrorMessage_12fmzphcx8tdi46267.png",
+      "duration": 5910,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "An unknown server-side error occurred while processing the command. Original error: Error Domain=com.perfecto.pmdriver Code=1 \"Keyboard is not present\" UserInfo={NSLocalizedDescription=Keyboard is not present} (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'ba1ffa30e57b', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities [{reportPdfUrl=https://fifththird.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, simpleIsVisibleCheck=true, bundleid=com.clairmail.fth.client, deviceName=6CEDD7EA68F5F5211728B0554694B223BB4F86ED, platform=MAC, password=, deviceSessionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, driverClass=io.appium.java_client.ios.IOSDriver, platformVersion=11.4, webStorageEnabled=false, automationName=Appium, host=fifththird.perfectomobile.com, singleTestReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, browserName=, takesScreenshot=true, javascriptEnabled=true, model=iPhone-8 Plus, platformName=MAC, applicationName=Fifth Third, networkConnectionEnabled=false, testGridReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, entityType=remote_web_driver, xcuitestFindOptimizations=true, bundleId=com.apple.mobilesafari, databaseEnabled=false, serverConnector=, serverHost=1.5.43.22:11605, securityToken=, executionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, locationContextEnabled=false, scriptName=RemoteWebDriver, reportKey=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, windTunnelReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, user=, cssSelectorsEnabled=true}]\nSession ID: f790bed0-ab13-4e4b-8ca3-e54f4e596d59\nCommand duration or timeout: 3.60 seconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ILWORKSTATION05', ip: '172.16.102.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://fifththird.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, simpleIsVisibleCheck=true, bundleid=com.clairmail.fth.client, deviceName=6CEDD7EA68F5F5211728B0554694B223BB4F86ED, platform=ANY, password=, deviceSessionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, driverClass=io.appium.java_client.ios.IOSDriver, platformVersion=11.4, automationName=Appium, host=fifththird.perfectomobile.com, singleTestReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, takesScreenshot=true, javascriptEnabled=true, model=iPhone-8 Plus, platformName=iOS, applicationName=Fifth Third, rotatable=true, testGridReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, entityType=remote_web_driver, xcuitestFindOptimizations=true, bundleId=com.apple.mobilesafari, serverConnector=, serverHost=1.5.43.22:11605, securityToken=, executionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, webdriver.remote.sessionid=e9539b35-1c24-45b4-bfe6-64af8cf2f04b, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, windTunnelReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, user=, cssSelectorsEnabled=true}]\nSession ID: e9539b35-1c24-45b4-bfe6-64af8cf2f04b",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I click on login button",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I get an no internet error message",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error Domain=com.perfecto.pmdriver Code=1 \"Keyboard is not present\" UserInfo={NSLocalizedDescription=Keyboard is not present} (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'ba1ffa30e57b', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities [{reportPdfUrl=https://fifththird.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, simpleIsVisibleCheck=true, bundleid=com.clairmail.fth.client, deviceName=6CEDD7EA68F5F5211728B0554694B223BB4F86ED, platform=MAC, password=, deviceSessionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, driverClass=io.appium.java_client.ios.IOSDriver, platformVersion=11.4, webStorageEnabled=false, automationName=Appium, host=fifththird.perfectomobile.com, singleTestReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, browserName=, takesScreenshot=true, javascriptEnabled=true, model=iPhone-8 Plus, platformName=MAC, applicationName=Fifth Third, networkConnectionEnabled=false, testGridReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, entityType=remote_web_driver, xcuitestFindOptimizations=true, bundleId=com.apple.mobilesafari, databaseEnabled=false, serverConnector=, serverHost=1.5.43.22:11605, securityToken=, executionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, locationContextEnabled=false, scriptName=RemoteWebDriver, reportKey=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, windTunnelReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, user=, cssSelectorsEnabled=true}]\nSession ID: f790bed0-ab13-4e4b-8ca3-e54f4e596d59\nCommand duration or timeout: 3.60 seconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ILWORKSTATION05', ip: '172.16.102.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://fifththird.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, simpleIsVisibleCheck=true, bundleid=com.clairmail.fth.client, deviceName=6CEDD7EA68F5F5211728B0554694B223BB4F86ED, platform=ANY, password=, deviceSessionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, driverClass=io.appium.java_client.ios.IOSDriver, platformVersion=11.4, automationName=Appium, host=fifththird.perfectomobile.com, singleTestReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, takesScreenshot=true, javascriptEnabled=true, model=iPhone-8 Plus, platformName=iOS, applicationName=Fifth Third, rotatable=true, testGridReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, entityType=remote_web_driver, xcuitestFindOptimizations=true, bundleId=com.apple.mobilesafari, serverConnector=, serverHost=1.5.43.22:11605, securityToken=, executionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, webdriver.remote.sessionid=e9539b35-1c24-45b4-bfe6-64af8cf2f04b, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, windTunnelReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, user=, cssSelectorsEnabled=true}]\nSession ID: e9539b35-1c24-45b4-bfe6-64af8cf2f04b\r\n\tat .When I have enter password as \"Test@1234\"(src/main/resources/scenarios/fifththirdLogin.feature:15)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:258)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:263)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)\r\n\tat com.quantum.steps.FifththirdLoginDefs.i_have_enter_password_as(FifththirdLoginDefs.java:133)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:159)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:225)\r\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n\tat java.lang.Thread.run(Unknown Source)\r\nCaused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error Domain=com.perfecto.pmdriver Code=1 \"Keyboard is not present\" UserInfo={NSLocalizedDescription=Keyboard is not present} (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'ba1ffa30e57b', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities [{reportPdfUrl=https://fifththird.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, simpleIsVisibleCheck=true, bundleid=com.clairmail.fth.client, deviceName=6CEDD7EA68F5F5211728B0554694B223BB4F86ED, platform=MAC, password=, deviceSessionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, driverClass=io.appium.java_client.ios.IOSDriver, platformVersion=11.4, webStorageEnabled=false, automationName=Appium, host=fifththird.perfectomobile.com, singleTestReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, browserName=, takesScreenshot=true, javascriptEnabled=true, model=iPhone-8 Plus, platformName=MAC, applicationName=Fifth Third, networkConnectionEnabled=false, testGridReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, entityType=remote_web_driver, xcuitestFindOptimizations=true, bundleId=com.apple.mobilesafari, databaseEnabled=false, serverConnector=, serverHost=1.5.43.22:11605, securityToken=, executionId=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, locationContextEnabled=false, scriptName=RemoteWebDriver, reportKey=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055, windTunnelReportUrl=https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-26_19_35_58_1055&_timestamp[0]=1532633758604, user=, cssSelectorsEnabled=true}]\nSession ID: f790bed0-ab13-4e4b-8ca3-e54f4e596d59\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ILWORKSTATION05', ip: '172.16.102.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'\nDriver info: driver.version: IOSDriver\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)\r\n\tat io.appium.java_client.MobileElement.execute(MobileElement.java:1)\r\n\tat io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)\r\n\tat com.perfectomobile.selenium.server.webapp.WebAppElement$4.call(WebAppElement.java:88)\r\n\tat com.nexperience.function.execute.ExecuteCallableCommand.process(ExecuteCallableCommand.java:30)\r\n\tat com.nexperience.engine.script.command.AbstractScriptCommand.doExecute(AbstractScriptCommand.java:173)\r\n\tat com.nexperience.engine.script.command.ScriptCommandBase.execute(ScriptCommandBase.java:107)\r\n\tat com.nexperience.engine.script.tcl.event.CommandTclEvent.processEvent(CommandTclEvent.java:43)\r\n\tat com.nexperience.engine.script.tcl.event.MaseTclEvent.processEvent(MaseTclEvent.java:56)\r\n\tat tcl.lang.Notifier.serviceEvent(Notifier.java:457)\r\n\tat tcl.lang.Notifier.doOneEvent(Notifier.java:610)\r\n\tat tcl.lang.Notifier.processTclEvents(Notifier.java:786)\r\n\tat com.nexperience.engine.script.tcl.event.TclEventProcessor.start(TclEventProcessor.java:78)\r\n\tat com.nexperience.engine.script.tcl.TclInterpreter.startEventProcessing(TclInterpreter.java:550)\r\n\tat com.nexperience.engine.script.execution.step.StepExecutionEventProcessor.callImpl(StepExecutionEventProcessor.java:85)\r\n\tat com.nexperience.engine.script.execution.step.StepExecutionEventProcessor.callImpl(StepExecutionEventProcessor.java:21)\r\n\tat com.nexperience.util.thread.WrappedCallable.call(WrappedCallable.java:31)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n"
+}

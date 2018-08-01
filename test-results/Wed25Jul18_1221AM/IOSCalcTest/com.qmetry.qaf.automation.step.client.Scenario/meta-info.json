@@ -1,0 +1,48 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@appium",
+          "@appium"
+        ],
+        "lineNo": 6.0,
+        "name": "Appium Example",
+        "referece": "src/main/resources/scenarios/appiumCalc.feature",
+        "resultFileName": "AppiumExample",
+        "sign": "src.main.resources.scenarios.appiumCalc.feature.Appium Example()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1532458307235,
+      "duration": 45357,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@appium",
+          "@appium"
+        ],
+        "lineNo": 14,
+        "name": "Appium Example 2",
+        "referece": "src/main/resources/scenarios/appiumCalc.feature",
+        "resultFileName": "AppiumExample2",
+        "sign": "src.main.resources.scenarios.appiumCalc.feature.Appium Example 2()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1532458352601,
+      "duration": 270,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

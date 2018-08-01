@@ -1,0 +1,278 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "i_open_the_browser_and_enter_URL",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.53.com/content/fifth-third/en.html}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 11656
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_click_on_login_button_on_screen",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/header/div[1]/ul[2]/li[2]/button, using=xpath}"
+          ],
+          "result": "id: 0.6680440329864796-1",
+          "subLogs": [],
+          "duration": 90
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_input_and",
+      "args": [
+        "[PerfectoWEBTest, Test@1234]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class = 'input-group'], using=xpath}"
+          ],
+          "result": "id: 0.6680440329864796-2",
+          "subLogs": [],
+          "duration": 96
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class = 'input-group']",
+            "{\"id\":\"0.6680440329864796-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 196
+        },
+        {
+          "commandName": "sendKeysToActiveElement",
+          "args": [
+            "{value=[Ljava.lang.CharSequence;@6cdc4d04}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1119
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='password'], using=xpath}"
+          ],
+          "result": "id: 0.6680440329864796-3",
+          "subLogs": [],
+          "duration": 85
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='password']",
+            "{\"id\":\"0.6680440329864796-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 135
+        },
+        {
+          "commandName": "sendKeysToActiveElement",
+          "args": [
+            "{value=[Ljava.lang.CharSequence;@681e8147}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 980
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_click_login",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/header/div[1]/ul[2]/li[2]/div/section/div/div/div/form/div[3]/button, using=xpath}"
+          ],
+          "result": "id: 0.6680440329864796-4",
+          "subLogs": [],
+          "duration": 76
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/header/div[1]/ul[2]/li[2]/div/section/div/div/div/form/div[3]/button",
+            "{\"id\":\"0.6680440329864796-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 127
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_get_an_error_message_on_screen",
+      "args": [
+        "[Test Error6]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class='s-alert__content'], using=xpath}"
+          ],
+          "result": "id: 0.6680440329864796-5",
+          "subLogs": [],
+          "duration": 71
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@class='s-alert__content']",
+            "{\"id\":\"0.6680440329864796-5\"}"
+          ],
+          "result": "getElementText:",
+          "subLogs": [],
+          "duration": 932
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class='s-alert__content'], using=xpath}"
+          ],
+          "result": "id: 0.6680440329864796-5",
+          "subLogs": [],
+          "duration": 77
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@class='s-alert__content']",
+            "{\"id\":\"0.6680440329864796-5\"}"
+          ],
+          "result": "getElementText:User ID and password invalid.",
+          "subLogs": [],
+          "duration": 843
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@class='s-alert__content'], using=xpath}"
+          ],
+          "result": "[id: 0.6680440329864796-5]",
+          "subLogs": [],
+          "duration": 154
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class='s-alert__content'], using=xpath}"
+          ],
+          "result": "id: 0.6680440329864796-5",
+          "subLogs": [],
+          "duration": 66
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@class='s-alert__content']",
+            "{\"id\":\"0.6680440329864796-5\"}"
+          ],
+          "result": "getElementText:User ID and password invalid.",
+          "subLogs": [],
+          "duration": 852
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class='s-alert__content'], using=xpath}"
+          ],
+          "result": "id: 0.6680440329864796-5",
+          "subLogs": [],
+          "duration": 69
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@class='s-alert__content']",
+            "{\"id\":\"0.6680440329864796-5\"}"
+          ],
+          "result": "getElementText:User ID and password invalid.",
+          "subLogs": [],
+          "duration": 829
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open the browser and enter URL",
+      "type": "TestStepPass",
+      "duration": 11656,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on login button on screen",
+      "type": "TestStepPass",
+      "duration": 236,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I input \"PerfectoWEBTest\" and \"Test@1234\"",
+      "type": "TestStepPass",
+      "duration": 7844,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click login",
+      "type": "TestStepPass",
+      "duration": 204,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I get an error message \"Test Error6\" on screen",
+      "type": "TestStepPass",
+      "duration": 5914,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Input box for User ID text should be User ID and password invalid. : Actual Input box for User ID text is User ID and password invalid.",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Web Demo Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+  </listeners>
+  <test name="Web Scenarios Chrome Test(failed)" parallel="tests">
+    <parameter name="perfecto.capabilities.platformVersion" value="10"/>
+    <parameter name="perfecto.capabilities.deviceType" value="Web"/>
+    <parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+    <parameter name="env.resources" value="src/main/resources/common"/>
+    <parameter name="perfecto.capabilities.browserVersion" value="68"/>
+    <parameter name="perfecto.capabilities.location" value="US East"/>
+    <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+    <parameter name="perfecto.capabilities.platformName" value="Windows"/>
+    <groups>
+      <run>
+        <include name="@web"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="scenario"/>
+          <include name="setupTest"/>
+          <include name="setupSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </classes>
+  </test> <!-- Web Scenarios Chrome Test(failed) -->
+</suite> <!-- Failed suite [Web Demo Suite] -->

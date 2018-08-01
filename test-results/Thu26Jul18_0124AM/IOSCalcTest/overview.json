@@ -1,0 +1,91 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "securityToken": "eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJiYzI0MDQ2Yi04NWVmLTRiYTgtYjM4Yy1hZGVjZjA3ZjJlMjYiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTMyNTQ1ODU2LCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2ZpZnRodGhpcmQtcGVyZmVjdG9tb2JpbGUtY29tIiwiYXVkIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJzdWIiOiJlZDUxYjliZS1hZjJhLTRkNTMtYWE5Yy0xMjZhODgwZjc2ODQiLCJ0eXAiOiJPZmZsaW5lIiwiYXpwIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJzZXNzaW9uX3N0YXRlIjoiZTM2ZjI0NmYtNGFmOS00MDNkLWJjYmItM2JmNDgzODM4ODM4IiwiY2xpZW50X3Nlc3Npb24iOiI1YmRmYTU3MS0yMjcyLTQ2NmEtOTBkOS1kN2MwZGFlYzI1ZTYiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50Iiwidmlldy1wcm9maWxlIl19fX0.QWOWcH-ZqDJBXZFj-nkUKEWoN5lV4d_Ip8TJs45Alvpm-77Z9MmRZqHVpOrFUN2HlzZr6xwf0TU7kf9P7C42ctmAqFj2oEHX4SxNsy0WNEM_4UrQWZjEdbVeSLMDS8_SrlOmFnySjasU_wvp1BTS8Z7c9uJlMWem0FnjdymZZoKlA6seUnYKAFuJZf46AfqJdpVtz3-A2MT1e8bWJAP1o5zUjG-C7xC3eQcZJKMIpKQzem9XajJm5USrXl_DZH3TThgkDWAQAT3wvLlFbypkA0BKAwclBM484lFjZkRpRTQMR8PRkNMAxZ1hVmqVlO3rd1N88_DG_0YWzQsVmKbCqA",
+      "password": "Devqa",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "user": "gopinath.nagarajan@internal.53.com",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://fifththird.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-25_19_54_36_534&_timestamp[0]=1532548476344",
+      "simpleIsVisibleCheck": "true",
+      "available": "false",
+      "language": "English",
+      "deviceName": "6CEDD7EA68F5F5211728B0554694B223BB4F86ED",
+      "deviceId": "6CEDD7EA68F5F5211728B0554694B223BB4F86ED",
+      "resolution": "1242x2208",
+      "platform": "ANY",
+      "wifiMacAddress": "68:ef:43:e0:b5:f8",
+      "manufacturer": "Apple",
+      "mode": "CONNECTED",
+      "password": "",
+      "cradleId": "BOS-E2-F1-5/VIRTUAL/05",
+      "deviceSessionId": "gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-25_19_54_36_534",
+      "osVersion": "11.4",
+      "automationName": "Appium",
+      "host": "fifththird.perfectomobile.com",
+      "singleTestReportUrl": "https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-25_19_54_36_534&_timestamp[0]=1532548476344",
+      "inUse": "true",
+      "takesScreenshot": "true",
+      "browserName": "MobileOS",
+      "javascriptEnabled": "true",
+      "model": "iPhone-8 Plus",
+      "firmware": "11.4",
+      "rotatable": "true",
+      "testGridReportUrl": "https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-25_19_54_36_534&_timestamp[0]=1532548476344",
+      "os": "iOS",
+      "entityType": "remote_web_driver",
+      "xcuitestFindOptimizations": "true",
+      "allocatedTo": "gopinath.nagarajan@internal.53.com",
+      "bundleId": "com.apple.mobilesafari",
+      "serverConnector": "",
+      "serverHost": "1.5.43.22:11605",
+      "securityToken": "",
+      "executionId": "gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-25_19_54_36_534",
+      "webdriver.remote.sessionid": "6aef879f-d799-4c1d-b17d-2f4da6e0e4ad",
+      "locationContextEnabled": "true",
+      "scriptName": "RemoteWebDriver",
+      "location": "NA-US-BOS",
+      "linkType": "lab",
+      "reportKey": "gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-25_19_54_36_534",
+      "windTunnelReportUrl": "https://fifththird.reporting.perfectomobile.com/library?externalId[0]=gopinath.nagarajan@internal.53.com_RemoteWebDriver_18-07-25_19_54_36_534&_timestamp[0]=1532548476344",
+      "user": "",
+      "operabilityRatingScore": "100",
+      "cssSelectorsEnabled": "true",
+      "status": "Connected"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "13",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "20-Feb-2018 00:19:29"
+    },
+    "run-parameters": {
+      "baseurl": "",
+      "resources": "src/main/resources/common"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_60",
+      "os.arch": "x86_64",
+      "host": "Bingo",
+      "os.name": "Mac OS X",
+      "user.name": "dineshbalajivenkataraman",
+      "os.version": "10.13.6"
+    }
+  },
+  "startTime": 1532548516575,
+  "endTime": 1532548538358
+}
