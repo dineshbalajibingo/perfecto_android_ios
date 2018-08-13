@@ -7,6 +7,7 @@
     <!-- To use actual AppiumDriver classes defined    -->
     <!-- by driverClass property in env.resources dirs -->
     <!-- Set driver.name value to perfectoDriver       -->
+    <!-- Garima Bansal made changes to this file .     -->
       <parameter name="driver.name" value="perfectoDriver"/>   
 
     <test name="IOS 53 Test" enabled="false">
