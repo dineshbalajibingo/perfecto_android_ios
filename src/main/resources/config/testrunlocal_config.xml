@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="QAF Demo" verbose="0">
+
+    <test name="BDD Test" enabled="true">
+   <groups>
+			<run>
+				<include name="@web" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+    </test>
+
+   
+</suite>

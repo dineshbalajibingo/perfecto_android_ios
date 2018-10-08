@@ -1,0 +1,13 @@
+{
+  "name": "QAF Demo",
+  "status": "unstable",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "startTime": 1538972018138,
+  "endTime": 1538972018391
+}

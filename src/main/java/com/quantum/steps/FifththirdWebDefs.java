@@ -21,7 +21,7 @@ import com.qmetry.qaf.automation.step.QAFTestStepProvider;
 		@Given("^I open the browser and enter URL$")
 	public void i_open_the_browser_and_enter_URL() throws Throwable {
 	
-		new WebDriverTestBase().getDriver().get("https://www.53.com/content/fifth-third/en.html");	
+		//new WebDriverTestBase().getDriver().get("https://www.53.com/content/fifth-third/en.html");	
 		ConsoleUtils.logWarningBlocks("Run started");
 		
 	}

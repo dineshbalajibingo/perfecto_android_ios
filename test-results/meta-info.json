@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_1002AM",
+      "startTime": 1538973137176
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0959AM",
+      "startTime": 1538972982299
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0959AM",
+      "startTime": 1538972946177
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0957AM",
+      "startTime": 1538972845820
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0956AM",
+      "startTime": 1538972788834
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0953AM",
+      "startTime": 1538972635595
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0951AM",
+      "startTime": 1538972499344
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0948AM",
+      "startTime": 1538972327188
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0948AM",
+      "startTime": 1538972284975
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0946AM",
+      "startTime": 1538972187394
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0944AM",
+      "startTime": 1538972084149
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0943AM",
+      "startTime": 1538972018138
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0935AM",
+      "startTime": 1538971506933
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Mon8Oct18_0927AM",
+      "startTime": 1538971032637
+    },
+    {
       "name": "Appium Demo Suite",
       "dir": "test-results/Wed1Aug18_1154AM",
       "startTime": 1533104680056

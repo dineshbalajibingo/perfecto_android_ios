@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Appium Demo Suite" parallel="tests">
-  <parameter name="driver.name" value="perfectoDriver"/>
-  <listeners>
-    <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
-  </listeners>
-  <test name="Android 53 Test">
+<suite name="QAF Demo">
+  <test name="BDD Test">
     <method-selectors>
       <method-selector>
         <script language="beanshell">
-          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Validate no internet connection error message")]]>
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Validating web login")]]>
         </script>
       </method-selector>
     </method-selectors>
-    <parameter name="driver.capabilities.platformVersion" value="Android"/>
-    <parameter name="env.resources" value="src/main/resources/android"/>
-    <parameter name="driver.capabilities.model" value="Galaxy S7"/>
-    <parameter name="driver.capabilities.deviceName" value="CE0218220B2F94150C"/>
     <classes>
       <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
     </classes>
-  </test> <!-- Android 53 Test -->
-</suite> <!-- Appium Demo Suite -->
+  </test> <!-- BDD Test -->
+</suite> <!-- QAF Demo -->
