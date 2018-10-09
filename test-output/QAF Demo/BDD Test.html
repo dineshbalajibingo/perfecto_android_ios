@@ -55,17 +55,50 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>BDD Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 08 09:48:05 IST 2018</td>
+<td>Started on:</td><td>Tue Oct 09 10:17:08 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (5 ms)</td>
+<tr><td>Total time:</td><td>9 seconds (9851 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td></td>
+<td>Included groups:</td><td>@web </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Validating web login()'><b>Validating web login</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Validating web login)<br/>
+<a href="#Output-350059321" onClick='toggleBox("Output-350059321", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-350059321" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-350059321">
+▄ ▄ ▄ BEGIN STEP: Given I open the browser and enter URL ▄ ▄ ▄<br/>
+▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57814}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8), userDataDir=/var/folders/z9/9zp5nd4d2v942b5_93vkp0bc0000gn/T/.org.chromium.Chromium.kvqCu5}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}] ▀▄▀▄▀<br/>
+▀▄▀▄▀ Run started ▀▄▀▄▀<br/>
+▀ ▀ ▀ END STEP: Given I open the browser and enter URL ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: And I click on login button on screen ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: And I click on login button on screen ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open the browser and enter URL</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I click on login button on screen</div><div  class="warn"><span class="warn-label">W </span>And I input <Accounts> and "Test@1234"["Accounts","Private Bank"] :: Not Found.</div><div  class="teststep"><span class="teststep-label">T </span>And I click login</div><div  class="teststep"><span class="teststep-label">T </span>Then I get an error message "User ID and password invalid." on screen</div></div><br/>
+</div>
+</td>
+<td><div><pre>com.qmetry.qaf.automation.step.StepNotFoundException: And I input &lt;Accounts&gt; and &quot;Test@1234&quot;[&quot;Accounts&quot;,&quot;Private Bank&quot;]@src/main/resources/scenarios/fifththirdweb.feature#8 TestStep implementation not found. 
+ Please provide implementation or ensure &apos;step.provider.pkg&apos; property value includes appropriate package.
+	at .And I input &lt;Accounts&gt; and &quot;Test@1234&quot;[&quot;Accounts&quot;,&quot;Private Bank&quot;](src/main/resources/scenarios/fifththirdweb.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace350059321", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace350059321'><pre>com.qmetry.qaf.automation.step.StepNotFoundException: And I input &lt;Accounts&gt; and &quot;Test@1234&quot;[&quot;Accounts&quot;,&quot;Private Bank&quot;]@src/main/resources/scenarios/fifththirdweb.feature#8 TestStep implementation not found. 
+ Please provide implementation or ensure &apos;step.provider.pkg&apos; property value includes appropriate package.
+	at .And I input &lt;Accounts&gt; and &quot;Test@1234&quot;[&quot;Accounts&quot;,&quot;Private Bank&quot;](src/main/resources/scenarios/fifththirdweb.feature:8)
+</pre></div></td>
+<td>9</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+</table><p>
 </body>
 </html>

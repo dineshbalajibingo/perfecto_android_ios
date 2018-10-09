@@ -1,0 +1,135 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "i_open_the_browser_and_enter_URL",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{type=implicit, ms=0}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 3
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.53.com/content/fifth-third/en.html}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 7332
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "i_click_on_login_button_on_screen",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/header/div[1]/ul[2]/li[2]/button, using=xpath}"
+          ],
+          "result": "id: 0.41232764515588416-1",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: /html/body/header/div[1]/ul[2]/li[2]/button",
+            "{\"id\":\"0.41232764515588416-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/header/div[1]/ul[2]/li[2]/button, using=xpath}"
+          ],
+          "result": "id: 0.41232764515588416-1",
+          "subLogs": [],
+          "duration": 11
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And I input <Accounts> and \"Test@1234\"[\"Accounts\",\"Private Bank\"]",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click login",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I get an error message \"User ID and password invalid.\" on screen",
+      "args": [
+        "[User ID and password invalid.]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open the browser and enter URL",
+      "type": "TestStepPass",
+      "duration": 8374,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on login button on screen",
+      "type": "TestStepPass",
+      "duration": 1076,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I input <Accounts> and \"Test@1234\"[\"Accounts\",\"Private Bank\"] :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click login",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I get an error message \"User ID and password invalid.\" on screen",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: And I input <Accounts> and \"Test@1234\"[\"Accounts\",\"Private Bank\"]@src/main/resources/scenarios/fifththirdweb.feature#8 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\n\tat .And I input <Accounts> and \"Test@1234\"[\"Accounts\",\"Private Bank\"](src/main/resources/scenarios/fifththirdweb.feature:8)\n"
+}

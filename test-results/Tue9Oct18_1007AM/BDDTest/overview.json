@@ -1,0 +1,68 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "browserName": "chrome",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "version": "",
+      "platform": "ANY",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "mobileEmulationEnabled": "false",
+      "hasTouchScreen": "false",
+      "platform": "MAC",
+      "acceptSslCerts": "false",
+      "goog:chromeOptions": "{debuggerAddress=localhost:57750}",
+      "acceptInsecureCerts": "false",
+      "webStorageEnabled": "true",
+      "browserName": "chrome",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "setWindowRect": "true",
+      "unexpectedAlertBehaviour": "",
+      "applicationCacheEnabled": "false",
+      "rotatable": "false",
+      "networkConnectionEnabled": "false",
+      "chrome": "{chromedriverVersion=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8), userDataDir=/var/folders/z9/9zp5nd4d2v942b5_93vkp0bc0000gn/T/.org.chromium.Chromium.5PbIaP}",
+      "takesHeapSnapshot": "true",
+      "pageLoadStrategy": "normal",
+      "databaseEnabled": "false",
+      "handlesAlerts": "true",
+      "version": "69.0.3497.100",
+      "browserConnectionEnabled": "false",
+      "nativeEvents": "true",
+      "locationContextEnabled": "true",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "13",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "20-Feb-2018 00:19:29"
+    },
+    "run-parameters": {
+      "baseurl": "",
+      "resources": "src/main/resources/common"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_60",
+      "os.arch": "x86_64",
+      "host": "Bingo",
+      "os.name": "Mac OS X",
+      "user.name": "dineshbalajivenkataraman",
+      "os.version": "10.14"
+    }
+  },
+  "startTime": 1539059869254,
+  "endTime": 1539059869407
+}

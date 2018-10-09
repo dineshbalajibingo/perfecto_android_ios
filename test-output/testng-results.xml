@@ -1,11 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I open the browser and enter URL ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57814}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8), userDataDir=/var/folders/z9/9zp5nd4d2v942b5_93vkp0bc0000gn/T/.org.chromium.Chromium.kvqCu5}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}] ▀▄▀▄▀]]>
+    </line>
+    <line>
+      <![CDATA[▀▄▀▄▀ Run started ▀▄▀▄▀]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I open the browser and enter URL ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: And I click on login button on screen ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: And I click on login button on screen ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open the browser and enter URL</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I click on login button on screen</div><div  class="warn"><span class="warn-label">W </span>And I input <Accounts> and "Test@1234"["Accounts","Private Bank"] :: Not Found.</div><div  class="teststep"><span class="teststep-label">T </span>And I click login</div><div  class="teststep"><span class="teststep-label">T </span>Then I get an error message "User ID and password invalid." on screen</div></div>]]>
+    </line>
   </reporter-output>
-  <suite name="QAF Demo" duration-ms="5" started-at="2018-10-08T04:18:05Z" finished-at="2018-10-08T04:18:05Z">
+  <suite name="QAF Demo" duration-ms="9851" started-at="2018-10-09T04:47:08Z" finished-at="2018-10-09T04:47:18Z">
     <groups>
+      <group name="@web">
+        <method signature="src.main.resources.scenarios.fifththirdweb.feature.Validating web login()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Validating web login" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @web -->
     </groups>
-    <test name="BDD Test" duration-ms="5" started-at="2018-10-08T04:18:05Z" finished-at="2018-10-08T04:18:05Z">
+    <test name="BDD Test" duration-ms="9851" started-at="2018-10-09T04:47:08Z" finished-at="2018-10-09T04:47:18Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Validating web login" name="setupSuit" is-config="true" duration-ms="15" started-at="2018-10-09T10:17:08Z" finished-at="2018-10-09T10:17:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69453e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Validating web login" name="setupTest" is-config="true" duration-ms="1" started-at="2018-10-09T10:17:08Z" finished-at="2018-10-09T10:17:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69453e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Validating web login" name="setup" is-config="true" duration-ms="1" started-at="2018-10-09T10:17:08Z" finished-at="2018-10-09T10:17:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69453e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Validating web login" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-10-09T10:17:08Z" finished-at="2018-10-09T10:17:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@69453e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="SKIP" signature="Validating web login()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Validating web login" name="Validating web login" duration-ms="9613" started-at="2018-10-09T10:17:08Z" finished-at="2018-10-09T10:17:17Z">
+          <exception class="com.qmetry.qaf.automation.step.StepNotFoundException">
+            <message>
+              <![CDATA[And I input <Accounts> and "Test@1234"["Accounts","Private Bank"]@src/main/resources/scenarios/fifththirdweb.feature#8 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.step.StepNotFoundException: And I input <Accounts> and "Test@1234"["Accounts","Private Bank"]@src/main/resources/scenarios/fifththirdweb.feature#8 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.
+	at .And I input <Accounts> and "Test@1234"["Accounts","Private Bank"](src/main/resources/scenarios/fifththirdweb.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.step.StepNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I open the browser and enter URL ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57814}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8), userDataDir=/var/folders/z9/9zp5nd4d2v942b5_93vkp0bc0000gn/T/.org.chromium.Chromium.kvqCu5}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}] ▀▄▀▄▀]]>
+            </line>
+            <line>
+              <![CDATA[▀▄▀▄▀ Run started ▀▄▀▄▀]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I open the browser and enter URL ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: And I click on login button on screen ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: And I click on login button on screen ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open the browser and enter URL</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I click on login button on screen</div><div  class="warn"><span class="warn-label">W </span>And I input <Accounts> and "Test@1234"["Accounts","Private Bank"] :: Not Found.</div><div  class="teststep"><span class="teststep-label">T </span>And I click login</div><div  class="teststep"><span class="teststep-label">T </span>Then I get an error message "User ID and password invalid." on screen</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validating web login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Validating web login" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-10-09T10:17:17Z" finished-at="2018-10-09T10:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69453e37]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Validating web login status=SKIP method=src.main.resources.scenarios.fifththirdweb.feature.Validating web login()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=▄ ▄ ▄ BEGIN STEP: Given I open the browser and enter URL ▄ ▄ ▄]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Validating web login" name="afterClass" is-config="true" duration-ms="1" started-at="2018-10-09T10:17:17Z" finished-at="2018-10-09T10:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69453e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Validating web login" name="afterTest" is-config="true" duration-ms="210" started-at="2018-10-09T10:17:17Z" finished-at="2018-10-09T10:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69453e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
     </test> <!-- BDD Test -->
   </suite> <!-- QAF Demo -->
 </testng-results>

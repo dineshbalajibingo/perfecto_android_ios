@@ -9,24 +9,26 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.qmetry.qaf.automation.step.QAFTestStepProvider;
 	import com.qmetry.qaf.automation.ui.WebDriverTestBase;
 	import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement;
-	import com.quantum.utils.ConsoleUtils;
+import com.quantum.util.Xls_Reader;
+import com.quantum.utils.ConsoleUtils;
 	import com.quantum.utils.DeviceUtils;
-	
-	import cucumber.api.java.en.Given;
+
+import cucumber.api.DataTable;
+import cucumber.api.java.en.Given;
 	import cucumber.api.java.en.Then;
 	
 	@QAFTestStepProvider
-	public class FifththirdWebDefs {
+	public class FifththirdWebDefs extends Xls_Reader{
 
 		@Given("^I open the browser and enter URL$")
 	public void i_open_the_browser_and_enter_URL() throws Throwable {
 	
-		//new WebDriverTestBase().getDriver().get("https://www.53.com/content/fifth-third/en.html");	
+		new WebDriverTestBase().getDriver().get("https://www.53.com/content/fifth-third/en.html");	
 		ConsoleUtils.logWarningBlocks("Run started");
 		
 	}
 	
-	@Given("^I input \"([^\"]*)\" and \"([^\"]*)\"$")
+/*	@Given("^I input \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void i_input_and(String arg1, String arg2) throws Throwable {
 		Thread.sleep(2000);
 		QAFExtendedWebElement userBoxElement = new QAFExtendedWebElement("input.userID");
@@ -44,7 +46,13 @@ import com.qmetry.qaf.automation.step.QAFTestStepProvider;
 		actionsC.sendKeys(arg2);
 		ConsoleUtils.logWarningBlocks("Password is " +arg2);
 		actionsC.build().perform();	
-	}
+	}*/
+		@Given("^I input <Accounts> and \"([^\"]*)\"$")
+		public void i_input_Accounts_and(String arg1, DataTable arg2) throws Throwable {
+		    
+			System.out.println("I am here ------------------->");
+			
+		}	
 	
 	@Given("^I click on login button on screen$")
 	public void i_click_on_login_button_on_screen() throws Throwable {

@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-QAF_Demo">
-              <span class="suite-name border-passed">QAF Demo</span>
+              <span class="suite-name border-skipped">QAF Demo</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-QAF_Demo">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-QAF_Demo" class="hide-methods skipped suite-QAF_Demo"> (hide)</a> <!-- hide-methods skipped suite-QAF_Demo -->
+                      <a href="#" panel-name="suite-QAF_Demo" class="show-methods skipped suite-QAF_Demo"> (show)</a> <!-- show-methods skipped suite-QAF_Demo -->
+                    </span>
+                    <div class="method-list-content skipped suite-QAF_Demo">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Demo" title="com.qmetry.qaf.automation.step.client.Scenario" hash-for-method="Validating web login">Validating web login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-QAF_Demo -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -103,6 +117,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-QAF_Demo" class="panel QAF_Demo">
+          <div class="suite-QAF_Demo-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.Scenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validating web login">
+                  </a> <!-- Validating web login -->
+                  <span class="method-name">Validating web login</span>
+                  <div class="stack-trace">com.qmetry.qaf.automation.step.StepNotFoundException: And I input &lt;Accounts&gt; and &quot;Test@1234&quot;[&quot;Accounts&quot;,&quot;Private Bank&quot;]@src/main/resources/scenarios/fifththirdweb.feature#8 TestStep implementation not found. 
+ Please provide implementation or ensure &apos;step.provider.pkg&apos; property value includes appropriate package.
+	at .And I input &lt;Accounts&gt; and &quot;Test@1234&quot;[&quot;Accounts&quot;,&quot;Private Bank&quot;](src/main/resources/scenarios/fifththirdweb.feature:8)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QAF_Demo-class-skipped -->
         </div> <!-- panel QAF_Demo -->
         <div panel-name="test-xml-QAF_Demo" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -114,6 +148,14 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite verbose=&quot;0&quot; name=&quot;QAF Demo&quot;&gt;
   &lt;test name=&quot;BDD Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;@web&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory&quot;/&gt;
+    &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- BDD Test --&gt;
 &lt;/suite&gt; &lt;!-- QAF Demo --&gt;
             </pre>
@@ -126,7 +168,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">BDD Test (0 classes)</span>
+                <span class="test-name">BDD Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,6 +178,14 @@
             <span class="header-content">Groups for QAF Demo</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">@web</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Validating web login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-QAF_Demo" class="panel">
@@ -152,11 +202,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Validating web login')
+data.setCell(0, 2, 'com.qmetry.qaf.automation.step.client.Scenario')
+data.setCell(0, 3, 9613);
 window.suiteTableData['QAF_Demo']= { tableData: data, tableDiv: 'times-div-QAF_Demo'}
 return data;
 }
               </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-QAF_Demo">
               </div> <!-- times-div-QAF_Demo -->
             </div> <!-- times-div -->
@@ -167,6 +222,18 @@ return data;
             <span class="header-content">Reporter output for QAF Demo</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Validating web login</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: Given I open the browser and enter URL ▄ ▄ ▄</span>
+                <span class="reporter-method-output">▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57814}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8), userDataDir=/var/folders/z9/9zp5nd4d2v942b5_93vkp0bc0000gn/T/.org.chromium.Chromium.kvqCu5}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}] ▀▄▀▄▀</span>
+                <span class="reporter-method-output">▀▄▀▄▀ Run started ▀▄▀▄▀</span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: Given I open the browser and enter URL ▀ ▀ ▀</span>
+                <span class="reporter-method-output">▄ ▄ ▄ BEGIN STEP: And I click on login button on screen ▄ ▄ ▄</span>
+                <span class="reporter-method-output">▀ ▀ ▀ END STEP: And I click on login button on screen ▀ ▀ ▀</span>
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open the browser and enter URL</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I click on login button on screen</div><div  class="warn"><span class="warn-label">W </span>And I input <Accounts> and "Test@1234"["Accounts","Private Bank"] :: Not Found.</div><div  class="teststep"><span class="teststep-label">T </span>And I click login</div><div  class="teststep"><span class="teststep-label">T </span>Then I get an error message "User ID and password invalid." on screen</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-QAF_Demo" class="panel">
@@ -181,6 +248,40 @@ return data;
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@69453e37)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@69453e37)</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@69453e37)</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@69453e3...)</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Validating web login</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@69453e37, [TestResult name=Validating web login status=SKIP method=src.main.re...)</span>
+                <span class="method-start">9654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@69453e37)</span>
+                <span class="method-start">9655 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@69453e37)</span>
+                <span class="method-start">9656 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

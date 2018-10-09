@@ -2,6 +2,36 @@
   "reports": [
     {
       "name": "QAF Demo",
+      "dir": "test-results/Tue9Oct18_1017AM",
+      "startTime": 1539060428130
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Tue9Oct18_1016AM",
+      "startTime": 1539060382582
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Tue9Oct18_1015AM",
+      "startTime": 1539060357273
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Tue9Oct18_1014AM",
+      "startTime": 1539060244012
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Tue9Oct18_1013AM",
+      "startTime": 1539060184566
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Tue9Oct18_1007AM",
+      "startTime": 1539059851527
+    },
+    {
+      "name": "QAF Demo",
       "dir": "test-results/Mon8Oct18_1002AM",
       "startTime": 1538973137176
     },
